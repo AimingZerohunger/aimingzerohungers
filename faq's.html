@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=deivice-width, initial-scale=1.0">
+        <title>Aiming Zero Hunger Goals</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+ rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1
+        /css/fontawesome.min.css">
+        
+
+    </head>
+    <body>
+       <section class="sub-header4">
+            <nav>
+                <a href="home.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about us.html">ABOUT US</a></li>
+                       <li><a href="watch.html">WATCH</a></li>
+                       <li><a href="events.html">EVENTS</a></li>
+                       <li><a href="faq's.html">FAQ's</a></li>     
+                       <li><a href="reference.html">REFERENCE</a></li>              
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    
+ </section>
+
+ <section class="Location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.0860994932304!2d122.85361524980057!3d10.173656872777174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ac1d77af562597%3A0xb2d112a16ac7363d!2sCarlos%20Hilado%20Memorial%20State%20University%20-%20Binalbagan%20Campus!5e0!3m2!1sen!2sph!4v1674278332267!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </section>
+ 
+
+<section class="contact-us">
+
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-home"></i>
+        <span>
+          <h5>Carlos Hilado Memorial state University</h5>
+          <p>Barangay Enclaro</p>
+        </span>
+        </div>
+          <div>
+            <i class="fa fa-phone"></i>
+         <span>
+          <h5>+639123456789</h5>
+          <p>Monday to Saturday</p>
+         </span>
+      </div>
+      <div>
+        <i class="fa fa-envelope-o"></i>
+        <span>
+          <h5>aimingzerohungergoals@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+        </div>
+      <div class="contact-col"></div>
+
+      <form action="form-handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter email address" required>
+        <input type="text" name="subject" placeholder="Enter your subject" required>
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+
+
+
+      </form>
+    </div>
+     </div>   
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+        <!----- Javascript for Toggle Menu ------>
+
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+
+
+
+
+    </body>
+</html>
